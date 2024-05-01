@@ -16,6 +16,33 @@ thead {
   font-weight: 700;
 }
 
-td {
-  
+tr td:nth-child(odd) {
+  background-color: #eceff1;
+}
+
+tr td:nth-child(even) {
+  background-color: #b0bec5;
+}
+
+tbody td:nth-child(2) {
+  color: #003300;
+  text-align: right;
+}
+
+tbody td:nth-child(3) {
+  color: #7f0000;
+  text-align: right;
+}
+
+tfoot {
+  font-weight: 800;
+  background-color: #78909c;
+}
+
+tfoot td:nth-child(2) {
+  text-align: right;
+}
+
+tfoot td:nth-child(3) {
+  text-align: right;
 }
