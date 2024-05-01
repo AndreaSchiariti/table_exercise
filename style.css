@@ -1,0 +1,21 @@
+table {
+  width: 50%;
+  border: 1px solid #263238 ;
+}
+
+caption {
+  color: #263238;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 5px;
+}
+
+thead {
+  background-color: #455a64;
+  color: white;
+  font-weight: 700;
+}
+
+td {
+  
+}
